@@ -19,10 +19,10 @@ Pod::Spec.new do |s|
     ss.resource     = 'SGQRCode/SGQRCode.bundle'
   end
   
-  #s.subspec 'Framework' do |ss|
-  #  ss.ios.vendored_framework   = 'ios/SGQRCode.framework'
-  #  ss.resource     = 'SGQRCode/SGQRCode.bundle'
-  #end
+  s.subspec 'Framework' do |ss|
+    ss.ios.vendored_framework   = 'ios/SGQRCode.framework'
+    ss.resource     = 'SGQRCode/SGQRCode.bundle'
+  end
   
   s.frameworks = 'UIKit', 'Photos','AVFoundation'
   
